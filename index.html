@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <title>KUNAN</title>
+</head>
+<body>
+  <div class="intro-text">
+    <p>Antes de iniciar la inscripcion debes leer las <a href="#">bases del concurso</a></p>
+    <p><strong>Nota:</strong> Al finalizar el formulario encontrarás el icono GUARDAR, el cual permitirá que puedas guardar la información ingresada si no
+      culminaste el formulario, dándote la posibilidad de entrar cuando necesites concretar y/o editar antes de elegir el icono ENVIAR</p>
+  </div>
+  <section id="formulario">
+    <div class="text-principal">
+      <h1>Formulario de Registro</h1>
+      <p>Datos del representante de la entidad postulante</p>
+    </div>
+    <form class="formulario-principal" action="index.html" method="post" id="formPrincipal">
+      <div class="box-lastname box-input">
+        <label class="item-form">Apellidos</label>
+        <input type="text" class="input-date" id="lastname">
+      </div>
+      <div class="box-name box-input">
+        <label class="item-form">Nombres</label>
+        <input type="text" class="input-date" id="name">
+      </div>
+      <div class="box-birth box-input">
+        <label class="item-form">Fecha de Nacimiento (dd/mm/yyyy)</label>
+        <input type="date" class="input-date" id="birth">
+      </div>
+      <div class="box-age box-input">
+        <label class="item-form">Edad</label>
+        <select class="" name="">
+          <option value="">18</option>
+          <option value="">19</option>
+          <option value="">20</option>
+          <option value="">21</option>
+          <option value="">22</option>
+          <option value="">23</option>
+          <option value="">24</option>
+          <option value="">25</option>
+          <option value="">26</option>
+          <option value="">27</option>
+        </select>
+      </div>
+      <div class="box-region-nac box-input">
+        <label class="item-form">Región de nacimiento</label>
+        <select class="" name="">
+          <option value="" hidden="hidden"> Selecciona la Región</option>
+          <option value="">Amazonas</option>
+          <option value="">Áncash</option>
+          <option value="">Apurímac</option>
+          <option value="">Arequipa</option>
+          <option value="">Ayacucho</option>
+          <option value="">Cajamarca</option>
+          <option value="">Callao</option>
+          <option value="">Cuzco</option>
+          <option value="">Huancavelica</option>
+          <option value="">Huánuco</option>
+          <option value="">Ica</option>
+          <option value="">Junín</option>
+          <option value="">La Libertad</option>
+          <option value="">Lambayeque</option>
+          <option value="">Lima</option>
+          <option value="">Loreto</option>
+          <option value="">Madre de Dios</option>
+          <option value="">Moquegua</option>
+          <option value="">Pasco</option>
+          <option value="">Piura</option>
+          <option value="">Puno</option>
+          <option value="">San Martín</option>
+          <option value="">Tacna</option>
+          <option value="">Tumbes</option>
+          <option value="">Ucayali</option>
+        </select>
+      </div>
+      <div class="box-residencia box-input">
+        <label class="item-form">Región de residencia</label>
+        <select class="" name="">
+          <option value="" hidden="hidden"> Selecciona la Región</option>
+          <option value="">Amazonas</option>
+          <option value="">Áncash</option>
+          <option value="">Apurímac</option>
+          <option value="">Arequipa</option>
+          <option value="">Ayacucho</option>
+          <option value="">Cajamarca</option>
+          <option value="">Callao</option>
+          <option value="">Cuzco</option>
+          <option value="">Huancavelica</option>
+          <option value="">Huánuco</option>
+          <option value="">Ica</option>
+          <option value="">Junín</option>
+          <option value="">La Libertad</option>
+          <option value="">Lambayeque</option>
+          <option value="">Lima</option>
+          <option value="">Loreto</option>
+          <option value="">Madre de Dios</option>
+          <option value="">Moquegua</option>
+          <option value="">Pasco</option>
+          <option value="">Piura</option>
+          <option value="">Puno</option>
+          <option value="">San Martín</option>
+          <option value="">Tacna</option>
+          <option value="">Tumbes</option>
+          <option value="">Ucayali</option>
+        </select>
+      </div>
+      <div class="box-gender box-input">
+        <label class="item-form">Sexo</label>
+        <input type="radio" class="input-date radio-date" id="masculino"><label>Masculino</label><br>
+        <input type="radio" class="input-date radio-date" id="femenino"><label>Femenino</label>
+      </div>
+      <div class="box-profesion box-input">
+        <label class="item-form">Profesión</label>
+        <input type="text" class="input-date" id="profesion">
+      </div>
+      <div class="box-cargo box-input">
+        <label class="item-form">Cargo en la organización</label>
+        <input type="text" class="input-date" id="cargoOrganizacion">
+      </div>
+      <div class="box-tiempo-cargo box-input">
+        <label class="item-form">Tiempo en dicho cargo en cantidad de meses</label>
+        <input type="number" class="input-date" id="tiempoCargo">
+      </div>
+      <div class="box-time-ong box-input">
+        <label class="item-form">Tiempo en la organización en cantidad de meses</label>
+        <input type="number" class="input-date" id="tiempoOrganizacion">
+      </div>
+      <p class="text-principal">Datos de la entidad postulante</p>
+      <div class="box-name-entidad box-input">
+        <label class="item-form">Nombre de la Entidad</label>
+        <input type="text" class="input-date" id="entidad">
+      </div>
+      <div class="box-region-interv box-input">
+        <label>Ambito de intervencion</label>
+        <p>¿Cuáles son las regiones, provincias y ditritos donde se situan sus operaciones a lo largo de toda la cadena del negocio?</p>
+        <label class="item-form">Regiones</label>
+        <input type="checkbox" class="check-region" id="region">Amazonas
+        <input type="checkbox" class="check-region" id="region">Áncash
+        <input type="checkbox" class="check-region" id="region">Apurímac
+        <input type="checkbox" class="check-region" id="region">Arequipa
+        <input type="checkbox" class="check-region" id="region">Ayacucho
+        <input type="checkbox" class="check-region" id="region">Cajamarca
+        <input type="checkbox" class="check-region" id="region">Callao
+        <input type="checkbox" class="check-region" id="region">Cuzco
+        <input type="checkbox" class="check-region" id="region">Huancavelica
+        <input type="checkbox" class="check-region" id="region">Huánuco
+        <input type="checkbox" class="check-region" id="region">Ica
+        <input type="checkbox" class="check-region" id="region">Junín
+        <input type="checkbox" class="check-region" id="region">La Libertad
+        <input type="checkbox" class="check-region" id="region">Lambayeque
+        <input type="checkbox" class="check-region" id="region">Lima
+        <input type="checkbox" class="check-region" id="region">Loreto
+        <input type="checkbox" class="check-region" id="region">Madre de Dios
+        <input type="checkbox" class="check-region" id="region">Moquegua
+        <input type="checkbox" class="check-region" id="region">Pasco
+        <input type="checkbox" class="check-region" id="region">Piura
+        <input type="checkbox" class="check-region" id="region">Puno
+        <input type="checkbox" class="check-region" id="region">San Martín
+        <input type="checkbox" class="check-region" id="region">Tacna
+        <input type="checkbox" class="check-region" id="region">Tumbes
+        <input type="checkbox" class="check-region" id="region">Ucayali
+      </div>
+    </form>
+  </section>
+</body>
+</html>
